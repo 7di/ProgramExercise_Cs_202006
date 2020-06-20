@@ -162,4 +162,5 @@ public class MarsRoverTest {
         Assert.assertEquals("S",marsLocation.getDirection());
     }
 
+
 }

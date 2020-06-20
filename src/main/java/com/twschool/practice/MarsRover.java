@@ -65,7 +65,18 @@ public class MarsRover {
             }
             return location;
         }
-
+//        if ("L".equals(command)) {
+//            location.leftDirection();
+//        }
+//        if ("R".equals(command)) {
+//            location.rightDirection();
+//        }
+//        if ("M".equals(command)) {
+//
+//            //location.setY(location.getY() + 1);
+//
+//
+//        }
         return location;
     }
 }

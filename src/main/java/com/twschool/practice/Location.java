@@ -4,6 +4,8 @@ public class Location {
     private int x;
     private int y;
     private String direction;
+    private Direction directionEnum;
+    private Move moveEnum;
 
     public Location(int x, int y, String direction) {
         this.x = x;
@@ -33,5 +35,23 @@ public class Location {
 
     public void setDirection(String direction) {
         this.direction = direction;
+    }
+    public void leftDirection() {
+        directionEnum = directionEnum.leftDirection();
+    }
+    public void rightDirection() {
+        directionEnum = directionEnum.rightDirection();
+    }
+    public void northMovement() {
+        moveEnum = moveEnum.northmovement();
+    }
+    public void westMovement() {
+        moveEnum = moveEnum.westmovement();
+    }
+    public void eastovement() {
+        moveEnum = moveEnum.eastmovement();
+    }
+    public void southMovement() {
+        moveEnum = moveEnum.southmovement();
     }
 }
